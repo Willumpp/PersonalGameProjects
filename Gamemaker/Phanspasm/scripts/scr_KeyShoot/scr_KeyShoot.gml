@@ -1,0 +1,1 @@
+if (keyboard_check(vk_space) or mouse_check_button(mb_left)) { return true; }

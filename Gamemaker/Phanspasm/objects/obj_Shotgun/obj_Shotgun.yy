@@ -1,0 +1,210 @@
+{
+    "id": "070b6f2f-e9e0-4948-95da-cc5ae82f56cb",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_Shotgun",
+    "eventList": [
+        {
+            "id": "f511ea20-a68a-4b53-83e9-ab4633c82ec5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "070b6f2f-e9e0-4948-95da-cc5ae82f56cb"
+        },
+        {
+            "id": "4b00bedc-167a-429e-aee7-573012cb92c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "070b6f2f-e9e0-4948-95da-cc5ae82f56cb"
+        },
+        {
+            "id": "b409a4e8-0aec-410e-b151-799888cb498b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "070b6f2f-e9e0-4948-95da-cc5ae82f56cb"
+        },
+        {
+            "id": "d1156617-d723-4334-ab7b-8f843dbd6c2a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "070b6f2f-e9e0-4948-95da-cc5ae82f56cb"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": [
+        {
+            "id": "d74ebccb-ab35-447e-9c11-24cc3eb93011",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "03f87adc-9060-4cd1-9994-a9d26509a6a0",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 0
+        },
+        {
+            "id": "487d247e-7d5d-4d17-b1da-6b3cb04d21dd",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 64
+        },
+        {
+            "id": "82eb69cb-46ea-4c50-97f9-1669ff2bf926",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 64
+        }
+    ],
+    "physicsStartAwake": false,
+    "properties": [
+        {
+            "id": "c219043a-98e2-4138-a8f9-c5184f89507e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "moveSpeed",
+            "varType": 0
+        },
+        {
+            "id": "4fcfff31-8348-466e-ba51-7606fcf8baf1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "weaponVolumeRange",
+            "varType": 0
+        },
+        {
+            "id": "b805bf7a-90b1-4a46-88e9-880f7b4a6c63",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "possessed",
+            "varType": 3
+        },
+        {
+            "id": "3e146578-5061-49a4-ba70-8cd3aea5b35a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "30",
+            "varName": "projectileSpeed",
+            "varType": 0
+        },
+        {
+            "id": "845e4dad-c226-454b-8005-83d4f5d84d19",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "projectileNum",
+            "varType": 0
+        },
+        {
+            "id": "ca3ebecd-d2b3-47d8-990c-0a3b5ea55765",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "reloadSpeed",
+            "varType": 0
+        },
+        {
+            "id": "94cd3ec1-944d-40a2-b630-bf002a52cac5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "health_Obj",
+            "varType": 0
+        },
+        {
+            "id": "31022bcd-4799-4f73-a78d-bd5bded57720",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "damage",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "64f31063-3207-4b0f-b727-6ff24f91aabf",
+    "visible": true
+}
